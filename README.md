@@ -10,6 +10,8 @@ Use the command `/pos <name>`
  
 You can find the coords file in you server files (where your OnsetServer exe is) named `(yourname)-SavedCoords.txt`
 
+*Note, this file is created automatically if it doesn't already exist*
+
 ### Changing how coords save
 You can change the format of how coords save in `sv_main line 13` For example, if you want to save coords into a table, you can use `file:write(name ..' | {'.. '["x"] = ' ..x.. ', ["y"] = ' ..y.. ', ["z"] = ' ..z.. '},\n')`
 
